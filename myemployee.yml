@@ -1,0 +1,17 @@
+---
+- myemployee:
+  - name: kiran
+    age: 40
+    address: gnt
+
+  - name: deepthi
+    age: 37
+    address: jgtl
+
+  - name: charan
+    age: 14
+    address: hyd1
+
+  - name: jaashi
+    age: 7
+    address: hyd2
