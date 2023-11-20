@@ -2,10 +2,10 @@
 172.31.23.147
 172.31.32.16
 
-[app webserver]
+[appwebserver]
 172.31.23.000
 172.31.32.00
 
-[DB webserver]
+[DBwebserver]
 172.31.23.11
 172.31.32.15
