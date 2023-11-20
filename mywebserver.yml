@@ -6,13 +6,10 @@
       apt:
         name: apache2
         state: present
-
-    - name: I want to install git
-      apt:
-        name: git
-        state: present
+      when: ansible_os_family=="Debian"
 
     - name: I want to start webserver
       service:
         name: apache2
         state: started
+      when: ansible_os_family=="Debian"
