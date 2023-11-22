@@ -2,3 +2,5 @@
     variable: value
     mywebpackonubuntu: apache2
     mywebpackonredhat: httpd 
+    myjavapackonubuntu:
+    myjavapackonredhat:
