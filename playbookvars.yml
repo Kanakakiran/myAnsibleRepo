@@ -12,11 +12,13 @@
 
 
     - name: I want to install the git
-      apt: git
-      state: present
+      apt:
+        name: git 
+        state: present
       when: myfirsttaskresult.stderr !=""
 
     - name: I want to install the wget
-      apt: wget
-      state: present
+      apt:
+        name: wget
+        state: present
       when: myfirsttaskresult.stderr ==""
